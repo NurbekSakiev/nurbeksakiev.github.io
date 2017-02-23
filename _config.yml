@@ -39,7 +39,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         
+url:     http://nurbeksakiev.github.io    
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -54,7 +54,7 @@ show_drafts: nil
 limit_posts: 0
 pygments:    true
 
-relative_permalinks: true
+relative_permalinks: false
 
 permalink:     pretty
 paginate_path: 'page:num'
