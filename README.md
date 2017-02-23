@@ -1,63 +1,35 @@
-# Jekyll Incorporated
-Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
+#Thinny - The Infinite's Nymphet
 
-## Installation & Usage
-    bundle install
-    jekyll serve --watch
 
-_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
-    
-## Configuration
-Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
+----
 
-```
-jekyll-incorporated/
-├── _config.yml
-├── _assets/
-    ├── stylesheets/
-        ├── main.scss
-```
+###Attention
 
-_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
+I'm no longer maintaining this repository.
 
-    
-## Publish to Github Pages
-1. Add your domain to _CNAME_
-2. Edit your repo address at _Rakefile_
-    
-Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
-``` 
-rake site:publish
-```
+If you want to add something, feel free to send a pull request, which I'll see if it's okay and merge.
 
-## Usage examples
+----
 
-* Adroll Engineering http://tech.adroll.com/
-* Brace.io blog http://blog.brace.io/
-* Spark.io blog http://blog.spark.io/
-* Department of Better Technology http://blog.dobt.co/
+##Installation
+1. Clone the repo: `git clone https://github.com/camporez/Thinny.git Thinny`
+2. Open the folder: `cd Thinny`
+3. Install the dependencies: `bundle install`
+4. Build the website: `bundle exec jekyll serve`
 
-## Authors
+##About
+Thinny is a beautiful theme for [Jekyll](http://jekyllrb.com/).
 
-Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
+(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
 
-**Karri Saarinen**
+##Demo
+[![Preview image](https://f.cloud.github.com/assets/5755892/2002329/bdb5a052-85ed-11e3-8e00-a892910b6917.png)](http://camporez.github.io/)
+The above image is a preview of how the post header looks on Thinny.
 
-+ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
-+ [http://github.com/ksaa](http://github.com/ksaa)
+A live demo is available [on my personal blog](http://camporez.github.io/).
 
-**Jori Lallo**
+##More information
+Read the blog post [here](http://camporez.github.io/blog/thinny-2/).
 
-+ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
-+ [http://github.com/jorde](http://github.com/jorilallo)
-
-## Todo:
-
-+ Documentation
-+ Less config files
-+ Better deploy scripts
-
-## Copyright and license
-
-Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
-
+##Reporting issues
+You can report an issue or request a feature [here](http://github.com/camporez/Thinny/issues) or on [twitter](http://twitter.com/iancamporez).
